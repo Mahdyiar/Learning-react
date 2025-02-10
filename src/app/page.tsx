@@ -10,14 +10,14 @@ export default function Home() {
           src="/next.svg"
           alt="Next.js logo"
           width={180}
-          height={50}
+          height={100}
           priority
         />
         <ol>
           <li>
             Get started by editing this shit <code>src/app/page.tsx</code>.
           </li>
-          <li>Save and see your fucked up little bad changes instantly.</li>
+          <li>Save and see your fucked up little bad desicions instantly.</li>
         </ol>
 
         <div className={styles.ctas}>
