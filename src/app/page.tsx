@@ -1,5 +1,5 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
@@ -10,14 +10,14 @@ export default function Home() {
           src="/next.svg"
           alt="Next.js logo"
           width={180}
-          height={38}
+          height={50}
           priority
         />
         <ol>
           <li>
-            Get started by editing <code>src/app/page.tsx</code>.
+            Get started by editing this shit <code>src/app/page.tsx</code>.
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Save and see your fucked up little bad changes instantly.</li>
         </ol>
 
         <div className={styles.ctas}>
@@ -34,7 +34,7 @@ export default function Home() {
               width={20}
               height={20}
             />
-            Deploy now
+            Deploy your shit now
           </a>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -42,7 +42,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.secondary}
           >
-            Read our docs
+            Read our terrible docs
           </a>
         </div>
       </main>
@@ -59,7 +59,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Learn
+          Learn totall bullshit
         </a>
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -73,7 +73,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Examples
+          Huh?
         </a>
         <a
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -87,7 +87,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          Go to trashjs.org →
         </a>
       </footer>
     </div>
