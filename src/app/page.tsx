@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.css';
+import Logout from '../components/Logout';
 
 export default function Home() {
   return (
@@ -44,6 +45,14 @@ export default function Home() {
           >
             Read our terrible docs
           </a>
+          <Logout />
+          {/* <a
+            href="/login"
+            rel="noopener noreferrer"
+            className={styles.secondary}
+          >
+            Log in
+          </a> */}
         </div>
       </main>
       <footer className={styles.footer}>
