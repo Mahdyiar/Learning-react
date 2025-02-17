@@ -1,5 +1,9 @@
 import Image from 'next/image';
 import styles from './page.module.css';
+<<<<<<< HEAD
+=======
+import Logout from '../components/Logout';
+>>>>>>> main
 
 export default function Home() {
   return (
@@ -10,14 +14,22 @@ export default function Home() {
           src="/next.svg"
           alt="Next.js logo"
           width={180}
+<<<<<<< HEAD
           height={50}
+=======
+          height={100}
+>>>>>>> main
           priority
         />
         <ol>
           <li>
             Get started by editing this shit <code>src/app/page.tsx</code>.
           </li>
+<<<<<<< HEAD
           <li>Save and see your fucked up bad changes instantly.</li>
+=======
+          <li>Save and see your fucked up little bad desicions instantly.</li>
+>>>>>>> main
         </ol>
 
         <div className={styles.ctas}>
@@ -44,6 +56,17 @@ export default function Home() {
           >
             Read our terrible docs
           </a>
+<<<<<<< HEAD
+=======
+          <Logout />
+          {/* <a
+            href="/login"
+            rel="noopener noreferrer"
+            className={styles.secondary}
+          >
+            Log in
+          </a> */}
+>>>>>>> main
         </div>
       </main>
       <footer className={styles.footer}>
